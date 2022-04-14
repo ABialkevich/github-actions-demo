@@ -8,4 +8,4 @@ jobs:
     - uses: stCarolas/setup-maven@v4.3
       with:
         maven-version: 3.8.2
-    - run: maven version
+    - run: mvn -v
